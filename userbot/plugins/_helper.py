@@ -3,7 +3,7 @@ from userbot import ALIVE_NAME
 from userbot.utils import admin_cmd
 from platform import uname
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "@mrconfused"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "@Rishabh25chauhan"
 
 @command(pattern="^.help ?(.*)")
 async def cmd_list(event):
